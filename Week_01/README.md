@@ -47,8 +47,8 @@ Examine	      |element()         | peek()
 
 - 分析 Priority Queue 的源码
 优先队列的实现方式是使用二叉堆的结构，需要满足以下两条性质(Heap property 最小堆)：
-1.任何结点的值都小于或等于其子节点的值。
-2.所有结点从上到下，从左到右填入，即一棵完全二叉树。
+1. 任何结点的值都小于或等于其子节点的值。
+2. 所有结点从上到下，从左到右填入，即一棵完全二叉树。
 
 PriorityQueue默认是最小堆，即堆顶元素最小。它的Constructor包含两个参数：initialCapacity 和 comparator
 1. 可以重载comparator来实现最大堆
