@@ -1,6 +1,6 @@
-public int trap(int[] height) {
+class Solution {
+    public int trap(int[] height) {
         int sum = 0;
-
         for (int i = 1; i < height.length - 1; i++) {
             int left = 0;
             for (int j = i - 1; j >= 0; j--) {
@@ -22,4 +22,5 @@ public int trap(int[] height) {
             }
         }
         return sum;
+    }
 }
