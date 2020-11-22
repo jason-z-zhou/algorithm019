@@ -42,7 +42,7 @@ class Solution {
         Deque<TreeNode> stack = new LinkedList<>();
         TreeNode node = root;
 
-        while(!stack.isEmpty() != null || node != null) {
+        while(!stack.isEmpty() || node != null) {
             while(node != null) {
                 res.add(node.val);
                 stack.push(node);
