@@ -17,7 +17,7 @@
 假定board的size是M * N， words的size是K，每个word的平均长度L
 
 - word初始化字典树: O(K * L)
-- 遍历board，匹配第一个字符：O(M*N) * L，这里O(M*N)是遍历board的复杂度，拿出board[i][j]的元素后，因为并查集的root元素查找首字母是常数复杂度，所以只需要下探L次。
+- 遍历board，匹配字符：O(M*N) * L，这里O(M*N)是遍历board的复杂度，拿出board[i][j]的元素后，因为并查集的root元素查找首字母是常数复杂度，所以只需要下探L次。
 
 因此时间复杂度是MAX(O(M * N * L), O(K*L)))
 
