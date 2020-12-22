@@ -74,7 +74,6 @@ class Solution {
         nr = grid.length;
         nc = grid[0].length;
 
-
         Queue<Node> queue = new PriorityQueue();
 
         queue.add(new Node(0, 0, 0));
